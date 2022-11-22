@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <button
+        [style.background]="colorList[0].value"
+        [(colorPicker)]="colorList[0].value"
+        [cpOKButton]="true"
+        [cpOKButtonText]="'Select'"
+        [cpCancelButton]="true"
+        [cpSaveClickOutside]="'false'"
+        [cpDisableInput]="false"
+        [cpAlphaChannel]="'disabled'"
+        [cpOutputFormat]="'hex'"
+        [cpPresetColors]="presetValues"
+        [cpAddColorButton]="true"
+      ></button>
+    </div>
+  </div>
+</div>
